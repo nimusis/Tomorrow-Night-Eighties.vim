@@ -19,12 +19,12 @@ let s:aqua = "00dddd"
 let s:blue = "99cccc"
 let s:purple = "cc99cc"
 let s:window = "4d5057"
+let s:dark = "202020"
 
-set background=dark
 hi clear
 syntax reset
 
-let g:colors_name = "kwon"
+let g:colors_name = "Tomorrow-Night-Eighties"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Returns an approximate grey index for the given grey level
